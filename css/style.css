@@ -30,10 +30,7 @@ body{
     padding-left:15px;
     padding-right:15px
     }
-@media(min-width:520px)
-    {
-      .container{width:500px}
-    }
+
 /* small screen */
 @media(min-width:768px)
 {
@@ -282,6 +279,10 @@ font-size:17px
     .services .services-content .image img{
         width:260px;
     }
+    @media(max-width:579px)
+    {
+      .container , .feature ,.landing{width:579px};
+    }
     @media(max-width:1199px){
 
         .image-cloumn{
@@ -465,6 +466,13 @@ font-size:17px
  .footer span{
      font-weight: bold;
      color:var(--main-color)
- }
+    }
+    @media(max-width:579px)
+       {
+           .footer{
+               width:578px;
+                 }
+       }
+
  /* ------------------End Footer------------------- */
 
