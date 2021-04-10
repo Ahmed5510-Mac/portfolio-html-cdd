@@ -32,6 +32,10 @@ body{
     }
 
 /* small screen */
+@media(max-width:579px)
+    {
+      .container , .feature ,.landing{width:579px};
+    }
 @media(min-width:768px)
 {
     .container{width:750px}
